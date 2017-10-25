@@ -1,0 +1,156 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*Especificos*/
+header {
+  color: red;
+  padding: 40px 0 40px 150px;
+}
+
+
+
+
+.panel {
+  background-image: url("../assets/images/bg-home.jpg");
+  height: 520px;
+  width: auto;
+  text-align: center;
+  color: white;
+}
+h2 {margin: 0;}
+
+/***/
+.panel-two {
+  text-align: center;
+  overflow: auto;
+}
+
+.article-services {
+  float: left;
+  margin-left: 100px;
+}
+
+
+
+
+/**Services*/
+
+.text-services {
+  background-color: #F17C72;
+}
+
+.size-image-services {
+  width: 220px;
+  height: 220px;
+}
+
+
+
+
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 24;
+  padding: 20px;
+  clear: left;
+
+}
+.size-image-hero {
+  width: 50%;
+  height:  50%px;
+
+}
+.work-section{
+    text-align: center;
+}
+.work {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 2% 5% 1% 0;
+}
+
+
+.size-image-work {
+  width: 90%;
+  height:  80%;
+
+
+}
+
+.work-section {
+  margin: 0 10% 0 10%;
+
+}
