@@ -89,6 +89,11 @@ header {
   width: 60px;
 }
 /*******************Primer Panel************************/
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
 .panel {
   background-image: url("../assets/images/bg-home.jpg");
   color: white;
