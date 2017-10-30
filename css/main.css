@@ -71,36 +71,59 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 /*Especificos*/
+
+/**************HEADER**********/
 header {
   color: red;
   padding: 40px 0 40px 150px;
 }
 
+.logo {
+  position: absolute;
+  right: 0;
+  top:0;
+}
 
-
-
+.logo img {
+  height: 60px;
+  width: 60px;
+}
+/*******************Primer Panel************************/
 .panel {
   background-image: url("../assets/images/bg-home.jpg");
+  color: white;
   height: 520px;
   width: auto;
   text-align: center;
-  color: white;
 }
-h2 {margin: 0;}
 
-/***/
+h2 {
+  margin: 0;
+  padding: 50px;
+}
+
+.btn {
+  background-color: #2ECC71;
+  border-style: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  padding: 10px;
+}
+
+/*******************Segundo Panel************************/
 .panel-two {
   text-align: center;
   overflow: auto;
+  color: white;
 }
 
 .article-services {
   float: left;
   margin-left: 100px;
 }
-
-
-
 
 /**Services*/
 
