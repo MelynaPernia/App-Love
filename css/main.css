@@ -13,6 +13,7 @@
 
 body {
   margin: 0 auto;
+  font-family: 'Merriweather','Poppins', serif;
   font-size: 16px;
   line-height: 1.71429;
 }
@@ -68,7 +69,19 @@ a:hover {
 .text-uppercase {
   text-transform: uppercase;
 }
+.panel{
+  padding: 100px 0 50px;
+}
 
+h4 {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-size: 32px;
+  font-weight: bold;
+}
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 /*Especificos*/
 
@@ -76,6 +89,11 @@ a:hover {
 header {
   color: red;
   padding: 40px 0 40px 150px;
+}
+
+.container div a {
+  font-family: 'Merriweather';
+  margin-right: 5vh;
 }
 
 .logo {
@@ -88,13 +106,9 @@ header {
   height: 60px;
   width: 60px;
 }
-/*******************Primer Panel************************/
-body {
-  font-family: 'Merriweather', serif;
-  font-family: 'Poppins', sans-serif;
-}
 
-.panel {
+/*******************Primer Panel************************/
+.panel-one {
   background-image: url("../assets/images/bg-home.jpg");
   color: white;
   height: 520px;
@@ -102,27 +116,22 @@ body {
   text-align: center;
 }
 
-h2 {
-  margin: 0;
-  padding: 50px;
-}
-
 .btn {
   background-color: #2ECC71;
   border-style: none;
-  border-radius: 5px;
   color: #FFFFFF;
   font-size: 20px;
-  margin-top: 1vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
   padding: 10px;
 }
 
 /*******************Segundo Panel************************/
 .panel-two {
+  color: white;
   text-align: center;
   overflow: auto;
-  color: white;
+  padding-bottom: 100px;
 }
 
 .article-services {
@@ -130,55 +139,47 @@ h2 {
   margin-left: 100px;
 }
 
-/**Services*/
-
+/********************************Services********************/
 .text-services {
   background-color: #F17C72;
 }
 
 .size-image-services {
-  width: 220px;
   height: 220px;
+  width: 220px;
 }
 
-
-
-
-
-
+/******************************Footer**************************/
 footer {
   background-color: black;
   color: white;
-  text-align: center;
-  font-size: 24;
-  padding: 20px;
   clear: left;
-
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
 }
+
 .size-image-hero {
+  height:  50%;
   width: 50%;
-  height:  50%px;
+}
 
-}
 .work-section{
-    text-align: center;
+  text-align: center;
 }
+
 .work {
-  width: 300px;
   height: 300px;
   float: left;
   margin: 2% 5% 1% 0;
+  width: 300px;
 }
 
-
 .size-image-work {
+  height: 80%;
   width: 90%;
-  height:  80%;
-
-
 }
 
 .work-section {
   margin: 0 10% 0 10%;
-
 }
